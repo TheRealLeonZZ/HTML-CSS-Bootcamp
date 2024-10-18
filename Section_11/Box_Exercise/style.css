@@ -12,27 +12,27 @@ body{
     border-radius: 20px;
 }
 
-h1, h2{
+.card h1 ,.card h2{
     text-transform: uppercase;
     margin: 0px;
 }
 
-h2{
+.card h2{
     color: #a6012e;
     font-size: 28px; 
 }
 
-h1{
+.card h1{
     font-size: 40px;
     font-weight: normal;
     margin-bottom: 28px;
 }
 
-p{
+.card p{
     font-size: 28px;
 }
 
-button{
+.card button{
     font-size: 20px;
     font-weight: bold;
     text-transform: uppercase;
