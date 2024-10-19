@@ -34,3 +34,8 @@ a.active{
 .navbar{
     margin: 30px;
 }
+
+img{
+    width: 40%;
+    height: 400px;
+}
