@@ -5,10 +5,15 @@ body{
 header h1{
     display: inline-block;
     font-weight: 300;
+    margin: 0px 32px 0px 0px;
 }
 
 .links{
     display: inline-block;
+}
+
+.links ul{
+    padding: 0px;
 }
 
 .links li{
@@ -20,4 +25,12 @@ header h1{
     text-decoration: none;
     font-size: 20px;
     margin: 0px 8px;
+}
+
+a.active{
+    border-bottom: 1px solid black;
+}
+
+.navbar{
+    margin: 30px;
 }
