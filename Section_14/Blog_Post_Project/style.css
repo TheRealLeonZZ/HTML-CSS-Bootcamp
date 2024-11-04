@@ -20,6 +20,7 @@ h1 {
   font-size: 80px;
   letter-spacing: -1.5px;
   font-weight: 400;
+  margin: 0;
 }
 
 h2 {
@@ -50,6 +51,30 @@ h6 {
 code {
   color: #e95400;
   font-weight: bold;
+}
+
+.hero {
+  background-color: #863ae8;
+  height: 100vh;
+  color: white;
+  text-align: center;
+  /* Dont worry about this */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.hero h1,
+.hero p {
+  width: 75%;
+  max-width: 900px;
+  margin: 16px 0px;
+}
+
+.hero hr {
+  width: 50%;
+  margin: 16px 0px;
 }
 
 .content {
