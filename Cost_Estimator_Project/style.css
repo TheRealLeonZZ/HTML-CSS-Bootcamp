@@ -71,3 +71,40 @@ h1 {
   z-index: 2;
   border-radius: 10px;
 }
+
+.toggle-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.toggle-wrapper p {
+  height: 40px;
+  border: 2px solid red;
+  margin: 0 16px;
+}
+
+.toggle {
+  background-color: rgb(83, 49, 156);
+  height: 32px;
+  width: 150px;
+  padding: 0 4px 0 16px;
+  border-radius: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  box-sizing: border-box;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 0.9rem;
+}
+
+.toggle span:first-of-type {
+  color: white;
+}
+
+.toggle span:last-of-type {
+  color: rgb(83, 49, 156);
+  background-color: white;
+  padding: 4px 16px;
+  border-radius: 20px;
+}
