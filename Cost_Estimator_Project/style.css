@@ -12,6 +12,7 @@ body {
 
 h1 {
   color: rgb(83, 49, 156);
+  margin: 32px 0 64px 0;
 }
 
 .container {
@@ -19,6 +20,7 @@ h1 {
   width: 100%;
   max-width: 900px;
   border-radius: 20px;
+  box-sizing: border-box;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -138,6 +140,7 @@ h1 {
 .slider {
   width: 100%;
   position: relative;
+  margin-bottom: 16px;
 }
 
 .slider .bar {
@@ -173,7 +176,7 @@ h1 {
   position: absolute;
   top: -4px;
   left: 30%;
-  transition: transform 0.1s ease-in;
+  transition: transform 0.15s ease;
 }
 
 .slider .point:hover {
@@ -202,16 +205,39 @@ h1 {
   background-color: rgb(250, 247, 255);
   border-radius: 10px;
   margin: 16px;
-  padding: 24px 72px;
+  padding: 24px;
   box-shadow: 0px 3px 11px 1px rgba(0, 0, 0, 0.1);
   text-align: center;
   font-weight: bold;
   color: rgb(83, 49, 156);
-  text-transform: uppercase;
+  transition: transform 0.15s ease;
+  position: relative;
+}
+
+.card-wrapper .card:hover {
+  transform: translateY(-8px);
+}
+
+.card .save-header {
+  color: white;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(53, 10, 74, 1) 36%,
+    rgba(83, 49, 156, 1) 100%
+  );
+  position: absolute;
+  top: -24px;
+  left: 0;
+  width: 100%;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
 }
 
 .card .top-section {
+  /* width: 100%; */
   padding: 8px;
+  text-transform: uppercase;
 }
 
 .card .top-section p {
@@ -227,4 +253,20 @@ h1 {
   width: 35%;
   border: 1px solid rgb(210, 210, 210);
   border-radius: 2px;
+}
+
+.card button {
+  border: none;
+  color: white;
+  background-color: rgb(83, 49, 156);
+  padding: 16px;
+  border-radius: 10px;
+  transition: transform 0.15s ease;
+  font-weight: bold;
+  margin: 8px 0;
+}
+
+.card button:hover {
+  cursor: pointer;
+  transform: scale(1.05);
 }
