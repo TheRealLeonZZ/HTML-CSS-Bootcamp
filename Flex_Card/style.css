@@ -1,0 +1,28 @@
+body {
+  background-image: linear-gradient(to bottom right, #3899ee, #38e2ee);
+  height: 100vh;
+}
+
+.container {
+  display: flex;
+  justify-content: space-around;
+  /* flex-basis: 400px; */
+}
+
+.card {
+  background-color: white;
+  border-radius: 5px;
+  width: 400px;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+
+.card footer {
+  background-color: slateblue;
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: auto;
+}
