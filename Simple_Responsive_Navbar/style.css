@@ -26,3 +26,46 @@
     padding: 40px;
   }
 }
+
+/* Responsive grid */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.box {
+  box-sizing: border-box;
+  /* margin: 40px; */
+  flex: 1 1 20%;
+  height: 300px;
+  background-color: steelblue;
+  border: 3px solid white;
+}
+
+.box:nth-of-type(2n) {
+  background-color: darkcyan;
+}
+
+@media only screen and (max-width: 1240px) {
+  .box {
+    flex: 1 1 25%;
+  }
+}
+
+@media only screen and (max-width: 980px) {
+  .box {
+    flex: 1 1 33.3333%;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  .box {
+    flex: 1 1 50%;
+  }
+}
+
+@media only screen and (max-width: 480px) {
+  .box {
+    flex: 1 1 100%;
+  }
+}
