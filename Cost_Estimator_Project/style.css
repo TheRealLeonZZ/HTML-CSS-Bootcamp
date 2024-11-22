@@ -113,11 +113,12 @@ h1 {
 .sessions-card {
   background-color: rgb(250, 247, 255);
   padding: 32px;
-  width: 50%;
+  width: 70%;
   margin: 16px 0;
   border-radius: 10px;
   text-align: center;
   text-transform: uppercase;
+  box-sizing: border-box;
 }
 
 .sessions-card p {
@@ -269,4 +270,37 @@ h1 {
 .card button:hover {
   cursor: pointer;
   transform: scale(1.05);
+}
+
+@media only screen and (max-width: 750px) {
+  .card-wrapper .card {
+    width: 100%;
+  }
+
+  .card-wrapper {
+    flex-wrap: wrap-reverse;
+  }
+
+  .sessions-card {
+    width: 80%;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  body {
+    padding: 16px;
+    margin-top: 0;
+  }
+
+  h1 {
+    margin: 16px 0 32px 0;
+  }
+
+  .container {
+    padding: 0 16px;
+  }
+
+  .sessions-card {
+    width: 90%;
+  }
 }
