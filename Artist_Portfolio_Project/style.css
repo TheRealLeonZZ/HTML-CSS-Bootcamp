@@ -1,5 +1,6 @@
 body {
   font-family: "Cormorant", serif;
+  margin: 0;
 }
 
 header h1 {
@@ -87,4 +88,43 @@ a.active {
 .contact p {
   margin: 0px;
   font-size: 20px;
+}
+
+@media only screen and (max-width: 1040px) {
+  .card {
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 850px) {
+  body {
+    width: 100%;
+  }
+
+  .about {
+    min-width: 65%;
+    margin-left: 150px;
+    font-size: 18px;
+  }
+
+  .card {
+    padding: 0;
+  }
+}
+
+@media only screen and (max-width: 610px) {
+  .about {
+    margin-left: 100px;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .about {
+    margin-left: 50px;
+    min-width: 75%;
+  }
+
+  .card h2 {
+    font-size: 1rem;
+  }
 }
