@@ -57,6 +57,20 @@ body {
   display: none;
 }
 
+.navbar .hamburger:hover {
+  cursor: pointer;
+}
+
+.navbar .bar1,
+.bar2,
+.bar3 {
+  background-color: black;
+  height: 4px;
+  width: 36px;
+  margin: 3px;
+  border-radius: 10px;
+}
+
 .mobileNav {
   width: 80px;
   height: 100vh;
@@ -68,8 +82,9 @@ body {
   position: fixed;
   z-index: 2;
   top: 0;
-  right: 0;
+  right: -160px;
   padding: 16px;
+  transition: transform 0.3s ease-in-out;
 }
 
 .mobileNav img {
@@ -87,14 +102,8 @@ body {
   text-decoration: underline;
 }
 
-.navbar .bar1,
-.bar2,
-.bar3 {
-  background-color: black;
-  height: 4px;
-  width: 36px;
-  margin: 3px;
-  border-radius: 10px;
+.openDrawer {
+  transform: translateX(-160px);
 }
 
 .project-grid {
