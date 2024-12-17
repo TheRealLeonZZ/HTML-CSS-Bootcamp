@@ -17,6 +17,8 @@ body {
   background-color: white;
   border-radius: 0.2rem;
   transition: transform 0.2s ease-in-out, box-shadow 0.2s ease-in-out;
+  position: relative;
+  overflow: hidden;
 }
 
 .hover1 {
@@ -35,4 +37,39 @@ body {
 .hover2:hover {
   transform: scale(0.95);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.18), 0 6px 6px rgba(0, 0, 0, 0.22);
+}
+
+.btn2 {
+  text-decoration: none;
+  color: #29e7b8;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 1rem 4rem;
+  margin-left: 3rem;
+  border: 3px solid #29e7b8;
+  border-radius: 0.2rem;
+  position: relative;
+  overflow: hidden;
+  transition: color 0.2s ease-in-out;
+}
+
+.btn2:hover {
+  color: white;
+}
+
+.hover3::before {
+  content: "";
+  width: 100%;
+  height: 100%;
+  background-color: #29e7b8;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateX(-100%);
+  transition: transform 0.2s ease-in-out;
+  z-index: -1;
+}
+
+.hover3:hover::before {
+  transform: translateX(0);
 }
