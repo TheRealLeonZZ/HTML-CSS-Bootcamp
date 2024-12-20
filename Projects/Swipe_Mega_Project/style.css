@@ -43,7 +43,7 @@ body {
   margin: 0;
   box-sizing: border-box;
   padding: var(--spacing-sm) 0 0 0;
-  background-color: var(--bg-light);
+  background-color: var(--bg-white);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -288,4 +288,18 @@ main {
 .hero-phone {
   height: 628px;
   transform: translate(32px, -32px);
+}
+
+/* PARTNERS SECTION */
+.partners-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: repeat(2, 1fr);
+  grid-gap: var(--spacing-lg) var(--spacing-md);
+  margin: var(--spacing-xl) 0;
+}
+
+.partners-grid img {
+  height: 60px;
+  place-self: center;
 }
