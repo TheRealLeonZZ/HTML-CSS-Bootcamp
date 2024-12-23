@@ -283,7 +283,14 @@ p {
 
 /* HERO SECTION */
 
+.hero {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 main {
+  width: 100%;
   margin: var(--spacing-xl) 0;
 }
 
@@ -312,6 +319,13 @@ main {
 }
 
 /* PARTNERS SECTION */
+
+.partners-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .partners-grid {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
@@ -328,6 +342,9 @@ main {
 /* UNIFIED PLATFORM SECTION */
 
 .unified-platform-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   padding: var(--spacing-xl) 0;
 }
 
@@ -346,6 +363,12 @@ main {
 }
 
 /* GRAPHIC GRID SECTION */
+
+.graphic-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
 
 .graphic-grid {
   display: grid;
@@ -384,6 +407,9 @@ main {
 /* INTEGRATIONS SECTION */
 
 .integrations-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
   color: var(--text-light);
   background-color: var(--primary-accent);
 }
@@ -423,6 +449,13 @@ main {
 }
 
 /* WHY SWIPE SECTION */
+
+.why-swipe-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
 .why-swipe-section .card-container {
   display: flex;
   margin: var(--spacing-lg);
@@ -437,4 +470,14 @@ main {
 
 .why-swipe-section .secondary-text {
   color: var(--text-dark);
+}
+
+/* GLOBAL SECTION */
+
+.global-section {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  background-color: var(--primary-accent);
+  color: white;
 }
