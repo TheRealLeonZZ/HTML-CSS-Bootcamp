@@ -1,5 +1,6 @@
 Some key notes:
 Stored as much variables as I needed to make code clean and easy to manage.
 Created basic elements and classes for fast and easy build. (headings in all sizes, links)
-Created layout styles like section-container, two-column + col_left + col_right, cards, subtitles, secondary text and buttons.
+Created layout styles like section-container, two-column + col_left + col_right, col, cards, subtitles, secondary text and buttons.
 Rotated backgrounds.
+Animated gradient.
