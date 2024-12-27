@@ -801,7 +801,6 @@ main {
 }
 
 /* TABLET SIZE */
-
 @media only screen and (max-width: 768px) {
   :root {
     --h1-size: 64px;
@@ -822,10 +821,19 @@ main {
   .integrations-section .card-container .card {
     width: 100%;
   }
+
+  /* WHY SWIPE SECTION */
+  .why-swipe-section .card-container {
+    flex-wrap: wrap;
+  }
+
+  .why-swipe-section .card-container .card {
+    width: 50%;
+    margin: var(--spacing-md) 0;
+  }
 }
 
 /* MOBILE SIZE */
-
 @media only screen and (max-width: 550px) {
   .two-column {
     flex-direction: column;
@@ -847,6 +855,16 @@ main {
   /* INTEGRATIONS SECTION */
   .integrations-section .col-right {
     display: none;
+  }
+
+  /* WHY SWIPE SECTION */
+  .why-swipe-section .card-container .card {
+    width: 100%;
+    margin: var(--spacing-sm) 0;
+  }
+
+  .why-swipe-section .card-container .card .icon {
+    height: 35px;
   }
 }
 
