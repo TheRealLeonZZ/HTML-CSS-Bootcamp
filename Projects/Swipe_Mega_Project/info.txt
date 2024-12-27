@@ -4,3 +4,6 @@ Created basic elements and classes for fast and easy build. (headings in all siz
 Created layout styles like section-container, two-column + col_left + col_right, col, cards, subtitles, secondary text and buttons.
 Rotated backgrounds.
 Animated gradient.
+
+For different screen sizes, tackle small parts first.
+Adjust screen size to tablet and phone, but if needed add more breakpoints inbetween.
