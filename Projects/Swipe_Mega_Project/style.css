@@ -818,6 +818,11 @@ main {
   .hero .col-right {
     width: 40%;
   }
+
+  /* PARTNERS GRID */
+  .partners-grid {
+    margin: -30px 0 0 0;
+  }
 }
 
 @media only screen and (max-width: 850px) {
@@ -993,6 +998,11 @@ main {
 
   .hero .two-column .col-left {
     width: 100%;
+  }
+
+  /* PARTNERS GRID */
+  .partners-grid {
+    margin: var(--spacing-xl) 0 0 0;
   }
 }
 
