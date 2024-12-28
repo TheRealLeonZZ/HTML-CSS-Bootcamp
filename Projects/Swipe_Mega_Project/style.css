@@ -900,6 +900,14 @@ main {
   }
 
   /* INTEGRATIONS SECTION */
+  .integrations-section {
+    padding: calc(var(--spacing-xl) * 2) 0;
+  }
+
+  .integrations-section::before {
+    height: 980px;
+  }
+
   .integrations-section .card-container {
     flex-direction: column;
   }
@@ -909,6 +917,10 @@ main {
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-sm) 0 var(--spacing-xl) 0;
+  }
+
   .why-swipe-section .card-container {
     flex-wrap: wrap;
   }
@@ -919,6 +931,10 @@ main {
   }
 
   /* GLOBAL SCALE SECTION */
+  .global-section {
+    padding: var(--spacing-xl) 0 var(--spacing-sm) 0;
+  }
+
   .global-section .card-container {
     flex-wrap: wrap;
     margin: var(--spacing-xl) 0;
@@ -927,6 +943,11 @@ main {
   .global-section .card-container .card {
     width: 50%;
     margin: var(--spacing-md) 0;
+  }
+
+  /* VIRTUAL EVENTS SECTION */
+  .virtual-events-section {
+    padding: var(--spacing-xl) 0 0 0;
   }
 
   /* GETTING STARTED SECTION */
@@ -981,6 +1002,10 @@ main {
     padding: 0;
   }
 
+  .section-container {
+    padding: 0 var(--spacing-lg);
+  }
+
   /* NAVBAR */
   .navbar {
     margin: var(--spacing-sm) 0 var(--spacing-lg) 0;
@@ -999,17 +1024,35 @@ main {
     display: none;
   }
 
+  /* UNIFIED PLATFORM SECTION */
+  .unified-platform-section {
+    padding: var(--spacing-md) 0;
+  }
+
   /* Partners grid */
   .partners-grid {
     grid-template-columns: 1fr 1fr;
   }
 
   /* INTEGRATIONS SECTION */
+
+  .integrations-section {
+    padding: var(--spacing-xl) 0;
+  }
+
+  .integrations-section::before {
+    height: 900px;
+  }
+
   .integrations-section .col-right {
     display: none;
   }
 
   /* WHY SWIPE SECTION */
+  .why-swipe-section {
+    padding: var(--spacing-md) 0;
+  }
+
   .why-swipe-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -1020,6 +1063,10 @@ main {
   }
 
   /* GLOBAL SCALE SECTION */
+  .global-section {
+    padding: var(--spacing-xl) 0 0 0;
+  }
+
   .global-section .card-container .card {
     width: 100%;
     margin: var(--spacing-sm) 0;
@@ -1030,6 +1077,10 @@ main {
   }
 
   /* VIRTUAL EVENTS SECTION */
+  .virtual-events-section {
+    padding: var(--spacing-md) 0;
+  }
+
   .virtual-events-section .swipe-sessions-card {
     width: 100%;
     margin: var(--spacing-lg) 0;
@@ -1045,6 +1096,14 @@ main {
 
   #sessions-logo {
     width: 300px;
+  }
+
+  .getting-started-section {
+    padding: var(--spacing-md) 0;
+  }
+
+  .getting-started-section .col-left {
+    padding: 0;
   }
 
   /* FOOTER */
